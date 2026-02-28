@@ -3,7 +3,7 @@
 # Usage: ./upload.sh
 # Run `npm run build` first to generate the dist/ directory.
 
-BUCKET_NAME="echo-talk-official-web"
+BUCKET_NAME="anonymouswall-prod-official-web"
 SRC_DIR="dist"
 
 # Delete all existing objects in bucket first

@@ -51,7 +51,7 @@ Cloudflare Dashboard → Workers & Pages → Create Worker → paste:
 ```javascript
 const OCI_REGION = 'ca-toronto-1';
 const OCI_NAMESPACE = 'yzwaexqwltre';
-const OCI_BUCKET = 'echo-talk-official-web';
+const OCI_BUCKET = 'anonymouswall-prod-official-web';
 const OCI_BASE = `https://objectstorage.${OCI_REGION}.oraclecloud.com/n/${OCI_NAMESPACE}/b/${OCI_BUCKET}/o`;
 
 export default {
