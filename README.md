@@ -34,11 +34,9 @@ The official marketing website for Echo Talk, the anonymous campus social app.
 - **Routing**: React Router v6
 - **Language**: JavaScript (JSX)
 
-## Prerequisites
+## Running Locally
 
-- Node.js 18+ and npm
-
-## Installation
+**Prerequisites:** Node.js 18+ and npm
 
 1. Clone the repository:
 
@@ -53,15 +51,15 @@ cd OfficialWeb
 npm install
 ```
 
-## Development
-
-Start the development server:
+3. Start the development server:
 
 ```bash
 npm run dev
 ```
 
-The site will be available at `http://localhost:5173`
+The site will be available at [http://localhost:5173](http://localhost:5173).
+
+Hot-module replacement (HMR) is enabled — changes to source files reload the browser instantly without a full refresh.
 
 ## Building for Production
 
