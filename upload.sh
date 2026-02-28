@@ -1,5 +1,5 @@
 #!/bin/bash
-# Echo Talk OfficialWeb — Cloudflare Pages upload script
+# Echo Talk OfficialWeb — OCI Object Storage upload script
 # Usage: ./upload.sh
 # Run `npm run build` first to generate the dist/ directory.
 
