@@ -32,6 +32,17 @@ export default function Hero() {
               App Store
             </a>
             <a
+              href="https://testflight.apple.com/join/4TTTUBFU"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-6 py-3 rounded-2xl bg-blue-500/20 border border-blue-500/40 text-blue-300 font-bold text-sm hover:bg-blue-500/30 transition-colors"
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M21 3L3 10.5l7.5 3L21 3zM21 3l-7.5 10.5L17 21 21 3z"/>
+              </svg>
+              TestFlight Beta
+            </a>
+            <a
               href="#features"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl border border-white/10 bg-white/5 text-white font-semibold text-sm hover:bg-white/10 transition-colors"
             >
