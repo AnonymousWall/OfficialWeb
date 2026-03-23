@@ -64,8 +64,8 @@ export default function Hero() {
             <div className="absolute inset-0 rounded-[3rem] bg-gradient-to-br from-purple-600/30 to-pink-500/30 blur-3xl scale-110" />
             <div className="relative w-[260px] h-[530px] rounded-[3rem] border-[8px] border-white/10 bg-white/5 backdrop-blur overflow-hidden flex items-center justify-center">
               <div className="text-center p-6">
-                <div className="w-16 h-16 rounded-2xl gradient-bg mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-white font-black text-xl">ET</span>
+                <div className="w-16 h-16 rounded-2xl mx-auto mb-4 overflow-hidden">
+                  <img src="/icon-192.png" alt="Echo Talk" className="w-full h-full object-cover" />
                 </div>
                 <p className="text-white font-bold text-lg mb-1">Echo Talk</p>
                 <p className="text-gray-400 text-sm">Your campus, your voice.</p>
