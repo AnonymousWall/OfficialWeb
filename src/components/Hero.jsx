@@ -32,6 +32,17 @@ export default function Hero() {
               App Store
             </a>
             <a
+              href="https://testflight.apple.com/join/4TTTUBFU"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-6 py-3 rounded-2xl bg-blue-500/20 border border-blue-500/40 text-blue-300 font-bold text-sm hover:bg-blue-500/30 transition-colors"
+            >
+              <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M21 3L3 10.5l7.5 3L21 3zM21 3l-7.5 10.5L17 21 21 3z"/>
+              </svg>
+              TestFlight Beta
+            </a>
+            <a
               href="#features"
               className="inline-flex items-center gap-2 px-6 py-3 rounded-2xl border border-white/10 bg-white/5 text-white font-semibold text-sm hover:bg-white/10 transition-colors"
             >
@@ -53,8 +64,8 @@ export default function Hero() {
             <div className="absolute inset-0 rounded-[3rem] bg-gradient-to-br from-purple-600/30 to-pink-500/30 blur-3xl scale-110" />
             <div className="relative w-[260px] h-[530px] rounded-[3rem] border-[8px] border-white/10 bg-white/5 backdrop-blur overflow-hidden flex items-center justify-center">
               <div className="text-center p-6">
-                <div className="w-16 h-16 rounded-2xl gradient-bg mx-auto mb-4 flex items-center justify-center">
-                  <span className="text-white font-black text-xl">ET</span>
+                <div className="w-16 h-16 rounded-2xl mx-auto mb-4 overflow-hidden">
+                  <img src="/icon-192.png" alt="Echo Talk" className="w-full h-full object-cover" />
                 </div>
                 <p className="text-white font-bold text-lg mb-1">Echo Talk</p>
                 <p className="text-gray-400 text-sm">Your campus, your voice.</p>

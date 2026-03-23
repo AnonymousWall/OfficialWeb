@@ -44,9 +44,7 @@ export default function Screenshots() {
           >
             <div className={`w-[200px] h-[400px] rounded-[2.5rem] border-[6px] border-white/10 bg-gradient-to-br ${screen.bg} backdrop-blur flex flex-col items-center justify-center gap-3 p-4`}>
               <div className="w-1/3 h-1 bg-white/20 rounded-full mb-2" />
-              <div className="w-8 h-8 rounded-xl gradient-bg flex items-center justify-center">
-                <span className="text-white font-black text-xs">ET</span>
-              </div>
+              <img src="/icon-192.png" alt="Echo Talk" className="w-8 h-8 rounded-xl" />
               <p className="text-white font-semibold text-sm">{screen.label}</p>
               <div className="w-full space-y-2 mt-2">
                 {[...Array(4)].map((_, j) => (
