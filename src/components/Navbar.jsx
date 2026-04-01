@@ -15,7 +15,9 @@ export default function Navbar() {
           Terms
         </Link>
         <a
-          href="#"
+          href="https://testflight.apple.com/join/4TTTUBFU"
+          target="_blank"
+          rel="noopener noreferrer"
           className="px-4 py-2 rounded-full gradient-bg text-white font-semibold text-sm hover:opacity-90 transition-opacity"
         >
           Download
